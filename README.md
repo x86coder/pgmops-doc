@@ -17,11 +17,18 @@ The project was initially conceived in 2019 and the project structure was modell
 
 ## Example
 
-For a construction project, usually we want to reduce expenses, so our initial equation to the problem is in the form of:  
+For a construction project, usually we want to reduce expenses, so our initial matrix of equtions would be in the form of:  
 
 $Z = x + y + z + ... $
 
-Where each unkown variable is an individual contribution to the total cost and is u
+Where each unkown variable is an individual contribution to the total cost (Z function) and is usually associated with a resource.  
+
+Where it gets interesting is when we consider each one of successive restrictions (e.g. conflicting schedules or resources):  
+
+$x < 500$  
+$y > 20$  
+
+And each one of this restrictions is added to the linear equations matrix in order to be solved.
 
 ## License
 
